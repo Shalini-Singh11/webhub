@@ -1,0 +1,168 @@
+/* ========= main-section  ============ */
+.page-banner {
+    /* height: 580px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 72px; */
+    /* background: url('./imagesAll/Bluewave-background-banner.png');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    height: 729px; 
+    top: 73px; */
+
+    
+    display: flex;
+    align-items: center;
+        height: 100vh;
+        /* background: linear-gradient(180deg, #003b7d1c 0%, #96C5FD 100%); */
+}
+
+
+.main-heading-paragraph {
+    color: #003B7D;
+}
+
+.h1_heading {
+    font-size: 55px;
+}
+
+.banner-video-section video {
+    width: 90%;
+}
+/* =========== */
+.mobile-section {
+    background-color: #7432FF;
+    color: white;
+}
+
+.heading-content-contain {
+    padding: 2%;
+}
+
+.heading-content-contain h2 {
+    text-align: center;
+}
+
+/* ============ third-main-section ==== */
+
+.process-heading-third-service-section {
+    padding: 4% 0;
+    color: #003B7D;
+}
+
+.service-in-india-img img {
+    width: 80%;
+}
+
+/* ======== app development-process ========= */
+.process-heading {
+    color: #003B7D;
+    text-align: center;
+    margin: 3%;
+}
+
+.service-process-section {
+    padding: 0 5%;
+
+}
+.service-process-left {
+    display: block;
+}
+
+.service-process-left img {
+    width: 80%;
+}
+
+.service-card-body {
+    border-radius: 18px;
+    background-color: #7432FF;
+    color: white;
+    padding: 1rem 1rem;
+    height: 450px;
+}
+
+.service-process-list ul li {
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 30px;
+}
+
+/* ======== what to do section  ======= */
+
+.what-to-do-content-contain ol {
+    padding-left: 15%;
+}
+
+.list-of-what-todo {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 30px;
+    color: #000000;
+}
+
+/* ======== FAQ ========= */
+
+.faq-section {
+    margin-bottom: 5%;
+}
+.faq-body {
+    background-color: #6FA4CA;
+    color: white;
+    border-radius: 7px;
+}
+.button-web-faq {
+    background-color: white;
+    color: black;
+    border-radius: 3px;
+    border: 0;
+    font-weight: 500;
+    padding: 2%;
+    font-size: 12px;
+    margin: 0 auto;
+}
+
+
+/* for web development */
+
+.contain-solution-web {
+    background-color: #FFF8F8;
+    border-radius: 50%;
+    border: 2px solid #003B7D;
+    height: 165px;
+
+}
+.solution-heading{
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    color: #00549A;
+}
+.card-title-importance {
+    font-weight: 700;
+    font-size: 39px;
+    line-height: 44px;
+    color: #00549A;
+}
+
+.heading-solutions-web {
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 34px;
+    text-align: center;
+    color: #000000;
+}
+.importance-web-card-body {
+    border-radius: 18px;
+    background-color: #7432FF;
+    color: white;
+    padding: 1rem 1rem;
+}
+@media screen and (max-width: 500px) {
+    .page-banner {
+        height: 855px;
+        top: 0px;
+    }
+}

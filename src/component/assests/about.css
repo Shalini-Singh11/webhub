@@ -1,0 +1,177 @@
+
+/* ========= main-section  ============ */
+
+.Mission-page-banner {
+    /* height: 650px;
+    top: 75px;
+    position: relative;
+    background-image: url('./imagesAll/blue-zigzig-banner.svg');
+    background-position: center;
+    background-size: cover;
+    z-index: 1; */
+    display: flex;
+    align-items: center;
+        height: 100vh;
+        /* background: linear-gradient(180deg, #003b7d1c 0%, #96C5FD 100%); */
+}
+
+.row_Mission {
+    padding: 0;
+}
+
+.Mission-main-heading {
+    font-size: 63px;
+}
+
+.Mission-main-heading-paragraph {
+    color: #003b7d;
+}
+
+.Mission-img-fluid {
+    width: 70%;
+}
+/* .Mission-img-section-ios-mobile video{
+    width: 120%;
+} */
+/* ========== Achievements ========== */
+
+.heading-content-achievement p {
+    font-weight: 400;
+    font-size: 21px;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.row-achievement {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.column-achievement {
+    height: 281px;
+    box-sizing: border-box;
+    border-radius: 50% 50%;
+    background-color: #014587;
+    border: 5px solid #D9D9D9;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.achievements-three-circle-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+}
+
+.achievements-three-circle-cards img {
+
+    width: 70%;
+    margin-bottom: 10%;
+}
+
+
+/* ======== about us ======== */
+
+.about-us-section {
+    margin: 5%;
+    margin-bottom: 0;
+}
+
+.heading-aboutus {
+    color: #7432FF;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.heading-content-aboutus p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+/* =======  Why Choose US========== */
+
+.why-chooseus-section {
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+
+.row-why-chooseus {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.heading-content-why-chooseus h1 {
+    color: #7432FF;
+}
+
+.column-why-chooseus {
+    height: 540px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.why-choose-us-three-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #000000;
+}
+
+.why-choose-us-three-cards h2 {
+    color: #7432FF;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 36px;
+}
+
+.why-choose-us-three-cards .our-expertise-content {
+    color: #7432FF;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 56px;
+}
+
+.why-choose-us-three-cards p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+}
+
+.why-choose-us-three-cards img {
+    width: 50%;
+}
+
+.About-img-fluid {
+    width: 80%;
+}
+
+@media screen and (max-width: 1500px){
+    .Mission-img-section-ios-mobile video {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .Mission-page-banner {
+        height: 750px;
+        top: 22px;
+    }
+    .Mission-img-section-ios-mobile video {
+        width: 100%;
+    }
+    .row-achievement {
+        justify-content: center;
+    }
+}

@@ -1,0 +1,59 @@
+.service-heading h2 {
+  font-weight: 700;
+}
+
+.service-heading h2 span {
+  color: #00549A;
+}
+
+.service-heading h4 {
+  z-index: 1;
+}
+
+.service-heading h4::before {
+  background: #00549A none repeat scroll 0 0;
+  bottom: 0;
+  content: "";
+  height: 2px;
+  left: 50%;
+  margin-left: -25px;
+  position: absolute;
+  width: 50px;
+}
+
+.all-services-section {
+  padding-top: 10%;
+}
+
+/* ============= cards css ================= */
+.card_service {
+  position: relative;
+  z-index: -1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card_service .background_image {
+  position: relative;
+  cursor: pointer;
+}
+
+.card_service .inner-cards-services {
+  position: absolute;
+  top: 35px;
+}
+
+.card_service .heading-servives-cards {
+  color: white;
+  bottom: 92px;
+  position: relative;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.arrow_right {
+  position: absolute;
+  bottom: 20%;
+}

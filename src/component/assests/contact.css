@@ -1,0 +1,147 @@
+
+
+/* ========= main-section  ============ */
+
+.contact-page-banner {
+    /* height: 640px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 80px;
+    margin-top: 0px;
+    margin-bottom: 25px;
+    background: url('./imagesAll/blue-zigzig-banner.svg');
+    background-position: center;
+    background-size: cover;
+    z-index: 1; */
+    display: flex;
+    align-items: center;
+
+        height: 100vh;
+        /* background: linear-gradient(180deg, #003b7d1c 0%, #96C5FD 100%); */
+
+}
+
+.row_contact {
+    padding: 0;
+}
+
+.contact-main-heading {
+    font-size: 60px;
+    font-weight: 400;
+}
+
+.contact-main-heading-paragraph {
+    text-align: center;
+    color: #003b7d;
+    font-weight: 300;
+}
+.contact_us_webm video{
+    width: 100%;
+}
+/* ========== form section and map  ============ */
+
+.contact-form-map-section {
+    margin-bottom: 10%;
+}
+
+.form-label {
+    color: black;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.heading-contact {
+    margin: 7%;
+}
+
+.contact-form-heading h1 {
+    font-weight: 700;
+}
+
+.button-div {
+    display: flex;
+    justify-content: center;
+}
+
+.button-form {
+    border-radius: 8px;
+    padding: 10px 45px;
+    color: white;
+    font-size: 15px;
+    font-weight: 900;
+    border: none;
+    background: #808080a8;
+}
+
+.address-contain {
+    height: 209px;
+    background-color: #014587;
+    border-radius: 15px;
+    margin-top: 2%;
+}
+
+.row-map-address {
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 1%;
+}
+
+.contact-form-map-section .contact-form-map-container {
+    padding: 26px 26px;
+    border-radius: 21px;
+}
+
+.shadow {
+    width: 100%;
+    height: 266px;
+    border-radius: 20px;
+}
+
+.map-container {
+    margin-left: 37px;
+}
+
+.address-lists {
+    list-style: none;
+}
+
+.address-lists li a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+}
+.address-phone-mail-location{
+    width: 3%;
+}
+.address-lists li {
+    margin-bottom: 2%;
+}
+
+.heading-address {
+    color: white;
+    padding: 2%;
+    padding-left: 6%;
+}
+
+.heading-address>h5 {
+    font-size: 25px;
+}
+
+/* ======= media query ====== */
+
+@media only screen and (max-width: 700px) {
+    .contain-all-form-map-address {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contact-page-banner {
+     position: relative;
+        top: 30px;
+        height: 770px;
+    }
+}

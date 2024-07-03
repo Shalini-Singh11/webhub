@@ -1,0 +1,19 @@
+/* ============= cards css ================= */
+.card_service {
+    position: relative;
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card_service .inner-services-img {
+    width: 50%;
+}
+
+.card_service .heading-inner-services {
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+}

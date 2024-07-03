@@ -1,0 +1,288 @@
+/* ========= main-section  ============ */
+.page-banner {
+    /* height: 580px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 72px; */
+    /* background: url("./imagesAll/Bluewave-background-banner.png");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    height: 729px;
+    top: 73px; */
+    display: flex;
+    align-items: center;
+        height: 100vh;
+        /* background: linear-gradient(180deg, #003b7d1c 0%, #96C5FD 100%); */
+}
+
+.main-heading-paragraph {
+    color: #003b7d;
+}
+
+.h1_heading {
+    font-size: 55px;
+}
+.banner-video-section video {
+    width: 90%;
+}
+
+/* ========= what ============ */
+
+.what-content-heading h1 {
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 45px;
+    color: #003b7d;
+}
+
+.what-content-heading p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 35px;
+    text-align: center;
+    color: #000000;
+}
+
+/* ======== FAQ ========= */
+
+.faq-section {
+    margin-bottom: 5%;
+}
+
+.faq-body {
+    background-color: #6fa4ca;
+    color: white;
+    border-radius: 7px;
+}
+
+.button-web-faq {
+    background-color: white;
+    color: black;
+    border-radius: 3px;
+    border: 0;
+    font-weight: 500;
+    padding: 2%;
+    font-size: 12px;
+    margin: 0 auto;
+}
+
+/* ============================  seo ================================== */
+/* type-of seo */
+.types-seo-section {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.heading-type-seo {
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 45px;
+    color: #003b7d;
+}
+
+.paragraph-type-seo {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.list-of-seos {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 35px;
+    color: #003b7d;
+}
+
+.heading-ranking-site {
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 40px;
+    color: #00549a;
+}
+
+.ranking-images {
+    width: 95%;
+}
+
+.left-side-box-content {
+    border-radius: 18px;
+    background-color: #7432ff;
+    color: white;
+    font-weight: 400;
+    padding: 1rem 1rem;
+}
+
+.ranking-box-content {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    color: #ffffff;
+    padding: 7%;
+}
+
+/* ===============================  smo  ======================= */
+.smo-service-include-lists li {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 35px;
+    color: #000000;
+}
+
+.contain-services-offer {
+    background-color: #fff8f8;
+    border-radius: 50%;
+    border: 2px solid #003b7d;
+    height: 165px;
+}
+
+.offered-heading {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    color: #00549a;
+}
+
+.offered-para {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 35px;
+    text-align: center;
+    color: #000000;
+    padding: 0 6%;
+}
+
+.heading-solutions-web {
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 34px;
+    text-align: center;
+    color: #000000;
+}
+
+@media screen and (max-width: 500px) {
+    .page-banner {
+        height: 855px;
+        top: 0px;
+    }
+}
+/* @media screen and (max-width: 800px) {
+    .heading-solutions-web {
+        font-size: 30px;
+    }
+
+    .contain-services-offer {
+        height: 340px;
+    }
+} */
+
+/* =========  smm ================== */
+.services-smm-para {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 35px;
+    color: #000000;
+}
+
+.grow-heading-smm {
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 35px;
+    color: #003b7d;
+    margin: 0;
+}
+
+.grow-para-smm {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #000000;
+}
+
+/* ==============  ppc ============================= */
+.shadow-border-ppc {
+    background: #fbfafa;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    height: 175px;
+}
+
+.heading-features {
+    border-radius: 50%;
+    background-color: #7432ff;
+    color: #ffffff;
+    padding: 2%;
+    margin: auto;
+    width: 10%;
+    text-align: center;
+    position: relative;
+    bottom: 15px;
+}
+
+.shadow-border-ppc p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.image-circle-sky,
+.image-circle-purple,
+.image-circle-lightsky,
+.image-circle-drkblue {
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    height: 194px;
+}
+
+.image-circle-sky {
+    background-image: url('./imagesAll/ppc_sky-circle.svg');
+}
+
+.image-circle-lightsky {
+    background-image: url('./imagesAll/ppc_lightsky-circle.svg');
+}
+
+.image-circle-drkblue {
+    background-image: url('./imagesAll/ppc_darkblue-circle.svg');
+}
+
+.image-circle-purple {
+    background-image: url("./imagesAll/ppc_purple-circle.svg");
+}
+
+.heading-ppc-circle {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #ffffff;
+    z-index: 1;
+}
+
+/* ==============  CRO =================== */
+.shadow-border-cro {
+    background: #fbfafa;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    height: 230px;
+}
+
+/* ===============  product listing ===================== */
+.heading-Strategies-plo {
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 34px;
+    text-align: center;
+    color: #000000;
+}
+
+.contain-services-Strategies {
+    background-color: #fff8f8;
+    border-radius: 50%;
+    border: 2px solid #003b7d;
+    height: 240px;
+}
